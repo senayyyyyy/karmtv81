@@ -73,5 +73,5 @@ class KralBetTV:
             raise
 
 if __name__ == "__main__":
-    guncelleyici = KralBetTV("1.m3u")
+    guncelleyici = KralBetTV("KralBetTV.m3u")
     guncelleyici.m3u_guncelle()
