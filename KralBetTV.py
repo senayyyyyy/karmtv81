@@ -7,7 +7,7 @@ class KralBetTV:
     def __init__(self, m3u_dosyasi):
         self.m3u_dosyasi = m3u_dosyasi
         self.httpx = Client(timeout=10, verify=False)
-        self.base_url = "https://1029kralbettv.com/"
+        self.base_url = "https://royalvipcanlimac.com/channels.php"
 
     def referer_domainini_al(self):
         referer_deseni = r'#EXTVLCOPT:http-referrer=(https?://[^/]*1029kralbettv[^/]*\.[^\s/]+)'
