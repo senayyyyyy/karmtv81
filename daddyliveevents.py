@@ -21,8 +21,8 @@ def get_title(entry):
 
 
 def replace_logo(entry):
-    old_logo = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/imgs/cfl-logo.png"
-    new_logo = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/imgs/cfb-logo.png"
+    old_logo = "https://tinyurl.com/merged2423-epg"
+    new_logo = "https://tinyurl.com/merged2423-epg"
     return entry.replace(old_logo, new_logo)
 
 
